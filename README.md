@@ -24,7 +24,7 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 ## 1.) Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
 - ketik chmod +x scripts/setup.sh (untuk menambah izin eksekusi)
-- ketik ./scripts/setup.sh (untu mengeksekusi)
+- ketik ./scripts/setup.sh (untuk mengeksekusi)
        
 
 Jika ingin bertanya atau berdiskusi dapat menulis di issues atau kirim ke email penugrah@criptext.com
