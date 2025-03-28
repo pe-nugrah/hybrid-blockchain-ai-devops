@@ -1,0 +1,13 @@
+version: '3'
+services:
+  bitcoin-node:
+    image: ruimarinho/bitcoin-core:24.0.1
+    ports:
+      - "8333:8333"
+    volumes:
+      - ./blockchain-node/bitcoin.conf:/bitcoin/.bitcoin/bitcoin.conf
+
+  ai-service:
+    build: .
+    depends_on:
+      - bitcoin-node
