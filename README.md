@@ -1,6 +1,6 @@
 ## Hybrid Blockchain AI DevOps Project
 
-Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. 
+Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru.
 
 
 ## Fitur
