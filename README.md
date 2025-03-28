@@ -24,7 +24,10 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 ## Instalasi 
 
 - Linux Automation
-
+```bash
+chmod +x scripts/setup.sh
+./scripts/setup.sh
+       '''
 
 Jika ingin bertanya atau berdiskusi dapat menulis di issues atau kirim ke email penugrah@criptext.com
 
