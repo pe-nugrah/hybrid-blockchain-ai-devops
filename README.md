@@ -10,20 +10,18 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 - 📜 Smart contract penyimpan prediksi
 
 
-## Struktur Proyek
+## Penjelasan Struktur Proyek
 
-/hybrid-blockchain-ai-devops         
-├── docker-compose.yml         >      DevOps: Orchestrasi container
-├── Dockerfile                 >      DevOps: Container untuk AI/ML
-├── blockchain-node/           >      Bitcoin/Blockchain
-│   └── bitcoin.conf
-├── ai-ml/                     >      Artificial Intelligence / Machine Learning
-│   ├── predict.py
-│   └── requirements.txt
-├── scripts/                   >      Linux Automation
-│   ├── setup.sh
-│   └── run-hybrid.sh
-├── smart-contract/            >      Blockchain (Solidity)
-│   └── PriceLogger.sol
-└── README.md
+         
+docker-compose.yml         >      DevOps: Orchestrasi container
+
+Dockerfile                 >      DevOps: Container untuk AI/ML
+
+blockchain-node/           >      Bitcoin/Blockchain
+
+ai-ml/                     >      Artificial Intelligence / Machine Learning
+
+scripts/                   >      Linux Automation
+
+smart-contract/            >      Blockchain (Solidity)
 
