@@ -21,7 +21,7 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 - Lisensi MIT
 
 
-## Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
+## 1.) Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
 - chmod +x scripts/setup.sh
 - ./scripts/setup.sh
