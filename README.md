@@ -11,13 +11,15 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 
 
 ## Komposisi Proyek
-
          
-1.) DevOps : Orchestrasi container
-2.) DevOps : Container untuk AI/ML
-3.) Bitcoin/Blockchain
-4.) Artificial Intelligence / Machine Learning
-5.) Linux Automation
-6.) Blockchain (Solidity)
-7.) Lisensi MIT 
+- DevOps : Orchestrasi container
+- DevOps : Container untuk AI/ML
+- Bitcoin/Blockchain
+- Artificial Intelligence / Machine Learning
+- Linux Automation
+- Blockchain (Solidity)
+- Lisensi MIT
+
+
+
 
