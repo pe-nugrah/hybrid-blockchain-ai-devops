@@ -13,15 +13,15 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 ## Penjelasan Struktur Proyek
 
          
-docker-compose.yml         >      DevOps: Orchestrasi container
+docker-compose.yml         untuk      DevOps : Orchestrasi container
 
-Dockerfile                 >      DevOps: Container untuk AI/ML
+Dockerfile                 untuk      DevOps : Container untuk AI/ML
 
-blockchain-node/           >      Bitcoin/Blockchain
+blockchain-node/           untuk      Bitcoin/Blockchain
 
-ai-ml/                     >      Artificial Intelligence / Machine Learning
+ai-ml/                     untuk      Artificial Intelligence / Machine Learning
 
-scripts/                   >      Linux Automation
+scripts/                   untuk      Linux Automation
 
-smart-contract/            >      Blockchain (Solidity)
+smart-contract/            untuk      Blockchain (Solidity)
 
