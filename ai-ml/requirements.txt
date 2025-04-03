@@ -1,0 +1,7 @@
+# Dependencies untuk AI/ML & Blockchain
+scikit-learn==1.3.2
+numpy==1.26.4
+pandas==2.1.4
+web3==6.15.1         # Untuk interaksi Ethereum
+python-dotenv==1.0.0 # Kelola environment variables
+tensorflow==2.15.0   # Opsional (jika pakai model DL)
