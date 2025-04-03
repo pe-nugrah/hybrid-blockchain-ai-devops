@@ -21,6 +21,11 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 - Lisensi MIT
 
 
+## Kebutuhan
+
+Silahkan cek di hybrid-blockchain-ai-devops/ai-ml/requirements.txt
+
+
 ## 1.) Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
 - Edit file satu persatu, karena ada yang harus diubah seperti Address kontrak Ethereum, ABI dari Remix, dll.  
