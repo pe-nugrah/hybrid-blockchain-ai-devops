@@ -1,16 +1,16 @@
-## Hybrid Blockchain AI DevOps Project
+## Hybrid Blockchain AI DevOps Project.
 
-Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
+Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru dengan init sistem systemd. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
 
 
-## Fitur
+## Fitur.
 
 - 🐳 Docker Compose untuk Bitcoin node + AI service
 - 🤖 Model regresi linear untuk prediksi harga Bitcoin
 - 📜 Smart contract penyimpan prediksi
 
 
-## Komposisi Proyek
+## Komposisi Proyek.
          
 - DevOps : Orchestrasi container
 - DevOps : Container untuk AI/ML
@@ -21,12 +21,12 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 - Lisensi MIT
 
 
-## Kebutuhan
+## Kebutuhan.
 
 requirements.txt
 
 
-## 1.) Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
+## Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
 - Edit file satu persatu, karena ada yang harus diubah seperti Address kontrak Ethereum, ABI dari Remix, dll.  
 - ketik chmod +x scripts/setup.sh (untuk menambah izin eksekusi)
