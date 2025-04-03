@@ -23,7 +23,7 @@ Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps
 
 ## Kebutuhan
 
-Silahkan cek di hybrid-blockchain-ai-devops/ai-ml/requirements.txt
+requirements.txt
 
 
 ## 1.) Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
