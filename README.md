@@ -1,6 +1,6 @@
 ## Hybrid Blockchain AI DevOps Project.
 
-Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru dengan init sistem systemd, dan perintah baris menggunakan apt-get. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
+Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
 
 
 ## Fitur.
@@ -32,6 +32,10 @@ Silahkan buka requirements.txt
 - ketik chmod +x scripts/setup.sh (untuk menambah izin eksekusi)
 - ketik ./scripts/setup.sh (untuk mengeksekusi)
        
+
+## Catatan
+
+Ini untuk init sistem systemd, dan perintah baris menggunakan apt-get. (Untuk Ubuntu, Debian, dll)
 
 Jika ingin bertanya atau berdiskusi dapat menulis di issues atau kirim ke email penugrah@criptext.com
 
