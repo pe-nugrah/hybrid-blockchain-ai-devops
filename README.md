@@ -29,16 +29,40 @@ Silahkan buka requirements.txt
 ## Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
   Ini untuk init sistem systemd, dan perintah baris menggunakan apt-get. (Untuk Ubuntu, Debian, dll)
-- Edit file satu persatu, karena ada yang harus diubah seperti Address kontrak Ethereum, ABI dari Remix, dll.  
+- Edit file satu persatu, karena ada yang harus diubah seperti Address kontrak Ethereum, ABI dari Remix, dll.
+- Jika ingin tambahkan pengguna ke grup docker hapus # dan ubah USER di scripts/setup.sh 
 - ketik chmod +x scripts/setup.sh (untuk menambah izin eksekusi)
 - ketik ./scripts/setup.sh (untuk mengeksekusi)
        
 
-## Catatan
+## Catatan Tambahan.
 
-Jika ingin menggunakan untuk init sistem systemd, dan perintah baris menggunakan pacman. (Untuk Arch, Manjaro, dll)
+- Jika ingin menggunakan proyek untuk init sistem systemd, dan perintah baris menggunakan pacman. (Untuk Arch, Manjaro, dll)
+  maka gantikan 4 baris pertama scripts/setup.sh menjadi:
 
-Jika ingin menggunakan untuk init sistem systemd, dan perintah baris menggunakan
+       #!/bin/bash
+       # Instal Docker, Python, dan Git di Arch Linux
+       sudo pacman -Syu --noconfirm
+       sudo pacman -S --noconfirm docker python python-pip git
+
+
+- Jika ingin menggunakan proyek untuk init sistem systemd, dan perintah baris menggunakan yum. (Untuk CentOS 7, RHEL, Fedora, dll)
+  maka gantikan 4 baris pertama scripts/setup.sh menjadi:
+
+       #!/bin/bash
+       # Versi alternatif untuk sistem berbasis yum
+       sudo yum update -y
+       sudo yum install -y docker python3 python3-pip git
+
+
+- Jika ingin menggunakan proyek untuk init sistem systemd, dan perintah baris menggunakan dnf. (Untuk CentOS, RHEL, Fedora, dll)
+  maka gantikan 4 baris pertama scripts/setup.sh menjadi:
+  
+       #!/bin/bash
+       # Instal Docker, Python, dan Git di Red Hat-based systems
+       sudo dnf update -y
+       sudo dnf install -y docker python3 python3-pip git
+
 
 Jika ingin bertanya atau berdiskusi dapat menulis di issues atau kirim ke email penugrah@criptext.com
 
