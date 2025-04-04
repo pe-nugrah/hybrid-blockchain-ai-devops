@@ -28,6 +28,7 @@ Silahkan buka requirements.txt
 
 ## Gunakan Linux Automation untuk update dan menginstal alat-alat secara otomatis
 
+  Ini untuk init sistem systemd, dan perintah baris menggunakan apt-get. (Untuk Ubuntu, Debian, dll)
 - Edit file satu persatu, karena ada yang harus diubah seperti Address kontrak Ethereum, ABI dari Remix, dll.  
 - ketik chmod +x scripts/setup.sh (untuk menambah izin eksekusi)
 - ketik ./scripts/setup.sh (untuk mengeksekusi)
@@ -35,7 +36,9 @@ Silahkan buka requirements.txt
 
 ## Catatan
 
-Ini untuk init sistem systemd, dan perintah baris menggunakan apt-get. (Untuk Ubuntu, Debian, dll)
+Jika ingin menggunakan untuk init sistem systemd, dan perintah baris menggunakan pacman. (Untuk Arch, Manjaro, dll)
+
+Jika ingin menggunakan untuk init sistem systemd, dan perintah baris menggunakan
 
 Jika ingin bertanya atau berdiskusi dapat menulis di issues atau kirim ke email penugrah@criptext.com
 
