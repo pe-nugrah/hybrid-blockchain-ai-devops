@@ -1,6 +1,6 @@
 ## Hybrid Blockchain AI DevOps Project. (All Indonesian)
 
-Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
+Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia. Proyek ini digunakan untuk init sistem systemd, dan perintah baris menggunakan apt (Ubuntu, Debian, dll). Silahkan lihat catatan tambahan jika perintah baris bukan menggunakan apt!
 
 ## Struktur Proyek
 
