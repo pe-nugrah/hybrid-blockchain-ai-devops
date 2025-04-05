@@ -2,8 +2,10 @@
 
 Proyek ini menggabungkan Bitcoin node, model AI untuk prediksi harga, dan DevOps dengan Docker. Projek ini juga cocok untuk pengguna linux baru. Untuk itu, maka pengkodean telah saya tulis menggunakan bahasa Indonesia.
 
+## Struktur Proyek
 
-                                struktur proyek
+
+                                
       
       /hybrid-blockchain-ai-devops
       ├── docker-compose.yml              # DevOps: Orchestrasi container
